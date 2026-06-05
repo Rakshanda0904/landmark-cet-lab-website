@@ -6,8 +6,8 @@ export default function AboutSection() {
   return (
     <ScrollExpandMedia
       mediaType="image"
-      mediaSrc="src/assets/asset.png"
-      bgImageSrc="src/assets/asset.png"
+      mediaSrc="/assets/asset.png"
+      bgImageSrc="/assets/asset.png"
       title="Engineering Trust Through Precision Testing"
       scrollToExpand="Scroll down to explore"
     >

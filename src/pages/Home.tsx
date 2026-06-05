@@ -1,5 +1,5 @@
 import { LabScrollAnimation } from '../components/LabScrollAnimation';
-import AboutSection from '../components/ui/about-section';
+import AboutSection from '../components/ui/AboutSection';
 import Services from '../components/ui/services-hover';
 import ProjectsSection from '../components/blocks/projects-section';
 import CertificationsSection from '../components/blocks/certifications-section';
