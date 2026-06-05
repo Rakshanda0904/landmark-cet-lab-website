@@ -18,37 +18,37 @@ const certificates: Certificate[] = [
     id: "1",
     title: "NABL Accreditation",
     authority: "National Accreditation Board for Testing and Calibration",
-    image: "src/assets/nabl.jpg",
+    image: "/assets/nabl.jpg",
   },
   {
     id: "2",
     title: "Zilla Parishad Approval",
     authority: "Maharashtra Zilla Parishad",
-    image: "src/assets/zp.jpg"
+    image: "/assets/zp.jpg"
   },
   {
     id: "3",
     title: "BMC Approval",
     authority: "Brihanmumbai Municipal Corporation",
-    image: "src/assets/bmc.jpg"
+    image: "/assets/bmc.jpg"
   },
   {
     id: "4",
     title: "PWD Approval",
     authority: "State PWD Department",
-    image: "src/assets/pwd.jpg"
+    image: "/assets/pwd.jpg"
   },
   {
     id: "5",
     title: "CIDCO Approval",
     authority: "City and Industrial Development Corporation",
-    image: "src/assets/cidco.jpg"
+    image: "/assets/cidco.jpg"
   },
   {
     id: "6",
     title: "VVCMC Approval",
     authority: "Vasai-Virar City Municipal Corporation",
-    image: "src/assets/vvcmc.jpg"
+    image: "/assets/vvcmc.jpg"
   },
 ];
 
