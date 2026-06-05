@@ -48,7 +48,7 @@ export function ContactCard({
 					<p className="text-muted-foreground max-w-xl text-sm md:text-base lg:text-lg">
 						{description}
 					</p>
-					<div className="grid gap-4 md:grid md:grid-cols-2 lg:grid-cols-3">
+					<div className="flex flex-wrap gap-4 sm:gap-6 mt-6">
 						{contactInfo?.map((info, index) => (
 							<ContactInfo key={index} {...info} />
 						))}
@@ -75,14 +75,15 @@ function ContactInfo({
 	...props
 }: ContactInfoProps) {
 	return (
-		<div className={cn('flex items-center gap-3 py-3', className)} {...props}>
-			<div className="bg-muted/40 rounded-lg p-3">
-				<Icon className="h-5 w-5" />
+		<div className={cn('flex items-center gap-4 py-2', className)} {...props}>
+			<div className="bg-white/5 rounded-xl p-3 shrink-0">
+				<Icon className="h-5 w-5 text-blue-400" />
 			</div>
-			<div>
-				<p className="font-medium">{label}</p>
-				<p className="text-muted-foreground text-xs">{value}</p>
+			<div className="min-w-0">
+				<p className="font-semibold text-sm text-white">{label}</p>
+				<p className="text-muted-foreground text-sm mt-0.5">{value}</p>
 			</div>
 		</div>
 	);
 }
+

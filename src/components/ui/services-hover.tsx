@@ -148,7 +148,7 @@ export default function Services() {
   const [modal, setModal] = useState({ active: false, index: 0 });
 
   return (
-    <div className="py-24 overflow-hidden bg-[#05070a] text-white border-t border-white/5 relative z-20">
+    <div id="services" className="py-24 overflow-hidden bg-[#05070a] text-white border-t border-white/5 relative z-20">
       <div className="mx-auto max-w-7xl px-6 md:px-12">
         <div className="flex flex-col md:flex-row justify-between items-start md:items-end gap-6 mb-16">
           <div>

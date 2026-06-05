@@ -137,7 +137,7 @@ export const StaggerTestimonials: React.FC = () => {
   }, []);
 
   return (
-    <section className="relative w-full overflow-hidden bg-[#05070a] border-t border-white/5 py-12 h-[750px]">
+    <section id="testimonials" className="relative w-full overflow-hidden bg-[#05070a] border-t border-white/5 py-12 h-[750px]">
       <div className="absolute top-16 left-1/2 -translate-x-1/2 text-center z-20 w-full px-4">
         <div className="flex items-center justify-center gap-3 mb-4">
           <span className="text-blue-500 animate-pulse text-xs">●</span>

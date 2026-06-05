@@ -63,7 +63,7 @@ const ScrollExpandMedia = ({
   const textTranslateX = useTransform(
     scrollYProgress,
     [0, 1],
-    [0, isMobileState ? 180 : 150]
+    [0, isMobileState ? 100 : 80]
   );
 
   const bgOpacity = useTransform(scrollYProgress, [0, 1], [1, 0]);
@@ -189,7 +189,7 @@ const ScrollExpandMedia = ({
 
               {/* Title that splits apart */}
               <div
-                className={`flex items-center justify-center text-center gap-4 w-full relative z-10 flex-col ${textBlend ? 'mix-blend-difference' : 'mix-blend-normal'
+                className={`flex flex-row flex-nowrap items-center justify-center text-center gap-x-2 sm:gap-x-3 md:gap-x-4 w-full relative z-10 whitespace-nowrap ${textBlend ? 'mix-blend-difference' : 'mix-blend-normal'
                   }`}
               >
                 <motion.h2

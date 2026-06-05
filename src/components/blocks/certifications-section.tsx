@@ -112,7 +112,7 @@ export default function CertificationsSection() {
   const visibleCertificates = certificates.slice(currentIndex, currentIndex + itemsPerPage);
 
   return (
-    <section className="py-24 bg-[#05070a] relative z-10 overflow-hidden">
+    <section id="certifications" className="py-24 bg-[#05070a] relative z-10 overflow-hidden">
       <div className="container mx-auto px-4 md:px-6">
 
         {/* Header Section with Navigation Control Header */}

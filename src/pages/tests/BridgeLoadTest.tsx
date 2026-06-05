@@ -23,7 +23,7 @@ export default function Page() {
       <TestOverview
         description="The Bridge Load Test is conducted to evaluate the structural behavior, load-carrying capacity, and overall performance of a bridge under controlled loading conditions. The test helps confirm that the bridge performs safely as per design specifications."
         importance="This test is conducted to verify the safety, strength, and serviceability of bridge structures before or during operation."
-        image="https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2022&auto=format&fit=crop"
+        image="/assets/bridge%20load/seven.jpeg"
         safety="Ensures the bridge can safely support design loads, traffic conditions, and environmental forces throughout its lifespan."
       />
       <ProcessTimeline
@@ -49,8 +49,20 @@ export default function Page() {
       />
       <TestGallery
         images={[
-          "https://images.unsplash.com/photo-1541888087545-d729d3c19e53?q=80&w=2070&auto=format&fit=crop",
-          "https://images.unsplash.com/photo-1503387762-592deb58ef4e?q=80&w=2022&auto=format&fit=crop",
+          "/assets/bridge%20load/one.jpeg",
+          "/assets/bridge%20load/two.jpeg",
+          "/assets/bridge%20load/three.jpeg",
+          "/assets/bridge%20load/four.jpeg",
+          "/assets/bridge%20load/five.jpeg",
+          "/assets/bridge%20load/six.jpeg",
+          "/assets/bridge%20load/seven.jpeg",
+          "/assets/bridge%20load/eight.jpeg",
+          "/assets/bridge%20load/nine.jpeg",
+          "/assets/bridge%20load/ten.jpeg",
+          "/assets/bridge%20load/eleven.jpeg",
+          "/assets/bridge%20load/twelve.jpeg",
+          "/assets/bridge%20load/thirteen.jpeg",
+          "/assets/bridge%20load/fourteen.jpeg",
         ]}
       />
       <FAQAccordion
