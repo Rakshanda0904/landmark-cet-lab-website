@@ -4,7 +4,7 @@ import TestOverview from '../../components/tests/TestOverview';
 import ProcessTimeline from '../../components/tests/ProcessTimeline';
 import EquipmentCarousel from '../../components/tests/EquipmentCarousel';
 import TechnicalSpecs from '../../components/tests/TechnicalSpecs';
-import TestGallery from '../../components/tests/TestGallery';
+/*import TestGallery from '../../components/tests/TestGallery';*/
 import FAQAccordion from '../../components/tests/FAQAccordion';
 import CTASection from '../../components/tests/CTASection';
 
